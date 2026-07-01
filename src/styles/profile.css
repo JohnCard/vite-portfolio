@@ -1,0 +1,85 @@
+/* generic */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #e2eaff;
+}
+
+h1,h2{
+    text-align: center;
+    font-weight: bold;
+}
+/* flip card section */
+.img__presentation {
+    height: 190px;
+}
+
+.flip__card{
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+    padding: 0;
+}
+
+.card__back, .card__front{
+    border-radius: 10px;
+    transition: transform 1s;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
+
+.flip__card:hover .card__front{
+    transform: perspective(1100px) rotateY(180deg);
+}
+
+.flip__card:hover .card__back{
+    transform: perspective(1100px) rotateY(360deg);
+}
+
+.card__front{
+    transform: perspective(1100px) rotateY(0);
+}
+
+.card__front .card__data{
+    padding: 15px;
+}
+
+.card__back{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    transform: perspective(1100px) rotateY(180deg);
+}
+
+.card__worker img{
+    max-width: 100%;
+}
+
+/* technologies section */
+.list-group-item{
+    margin-bottom: 5px;
+}
+
+.gray__img{
+    filter: brightness(.6);
+}
+
+/* carousel */
+
+
+/* playlist */
+.youtube__img{
+    height: 160px;
+}
+
+/* form */
+textarea{
+    resize: none;
+}
