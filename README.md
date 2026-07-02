@@ -1,6 +1,16 @@
 # Vite Portfolio
 
-A modern frontend application built with **React** and **Material UI**. This project provides an interactive user interface that communicates with an external backend developed with **Django REST Framework** through REST APIs.
+This is a frontend client built with JavaScript for dynamic behavior, React for creating reusable and interactive components with configurable props and Material UI to provide a responsive and visually appealing user interface.
+
+It was developed to interact with a backend server built using Django REST Framework. For this reason, it was deployed on Vercel, where the frontend application is cloned from GitHub, its dependencies are installed, and the application is built and served to communicate with the backend server.
+
+**Demonstration video about how to use this server:** https://youtu.be/_mh8EzlQFT8
+
+## Backend
+
+External backend powered by **Django REST Framework**.
+
+link for backend server repository - https://github.com/JohnCard/Backend---codeandote
 
 ## Features
 
@@ -18,11 +28,6 @@ A modern frontend application built with **React** and **Material UI**. This pro
 - Material UI
 - JavaScript (ES6+)
 - Axios
-
-## Backend
-
-This frontend is designed to work with an external backend powered by **Django REST Framework**
-link for backend server repository - https://github.com/JohnCard/Backend---codeandote
 
 ## Installation
 
