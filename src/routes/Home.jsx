@@ -100,7 +100,7 @@ export const Home = () => {
           <Grid container spacing={2} alignItems="center">
               <Grid size={{ xs: 12, md: 4 }}>
                   <img
-                      src="../../img/myself.png"
+                      src="../img/myself.png"
                       alt="juan carlos"
                       style={{ width: "100%", borderRadius: "10px" }}
                   />
